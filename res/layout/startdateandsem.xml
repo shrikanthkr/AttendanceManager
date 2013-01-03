@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scaleType="fitStart"
+        android:background="@drawable/topbar" />
+
+    <ImageView
+        android:id="@+id/subject_tv"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/enterdetails"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_margin="10dp"
+        android:layout_marginTop="33dp"
+        android:text=" Semester"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/getsem"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/semester"
+        android:layout_centerHorizontal="true"
+        android:hint="[Semester number]"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getsem"
+        android:layout_centerVertical="true"
+        android:text=" Semester Starting Date"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/startdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        android:hint="[Starting Date]"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/startdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/checkcustom"
+        android:textColor="#000000" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="done"
+         android:layout_below="@+id/button_next"
+         android:layout_centerHorizontal="true"
+         />
+
+</RelativeLayout>

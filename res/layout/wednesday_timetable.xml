@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp">
+
+<ScrollView 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scrollbarAlwaysDrawVerticalTrack="true" 
+        android:scrollbars="vertical" >
+<AbsoluteLayout  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/wednesday_timetable"
+    
+    >
+
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="42dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="92dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox3"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="142dp"
+        android:textColor="#000000"
+        android:text="CheckBox"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox4"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="192dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox5"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="242dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox6"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="292dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox7"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="342dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox8"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="392dp"
+        android:textColor="#000000"
+        android:text="CheckBox"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox9"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="442dp"
+        android:text="CheckBox"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/wed_CheckBox10"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="14dp"
+        android:layout_y="492dp"
+        android:textColor="#000000"
+        android:text="CheckBox"
+        android:textSize="22dp" />
+    <Button
+        android:id="@+id/wednesday_done"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="80dp"
+        android:layout_y="542dp"
+        android:background="@drawable/addcustom"
+        >
+        
+       </Button>
+       <Button
+        android:id="@+id/wednesday_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="542dp"
+        android:background="@drawable/deletecustom"
+        >
+        
+       </Button>
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="add"
+           android:layout_x="87dp"
+           android:layout_y="582dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="delete"
+           android:layout_x="150dp"
+           android:layout_y="582dp"
+           />
+</AbsoluteLayout>
+</ScrollView >
+</FrameLayout>
+ </LinearLayout>
+</TabHost>

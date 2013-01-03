@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scaleType="fitStart"
+        android:background="@drawable/topbar" />
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backstyle"
+        />
+    
+      <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter"
+        android:background="#4675d4"
+        android:src="@drawable/custom">
+        </ImageButton>
+         <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="43dp"
+       android:src="@drawable/bunklord"
+       android:gravity="center_horizontal"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="5dp"
+       android:id="@+id/subject_tv"
+       
+       />
+        <ImageView
+        android:id="@+id/seperator"
+        android:layout_width="5dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/seperator" />
+        
+        <ImageButton
+            android:id="@+id/hallbutton"
+            android:layout_width="70dp"
+        	android:layout_height="70dp"
+        	android:layout_marginTop="180dp"
+        	android:layout_marginLeft="205dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/hallcustom"
+            
+          >
+          </ImageButton>
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/hallbutton"
+              android:layout_marginLeft="200dp"
+              android:text="Hall of Fame"
+              android:textColor="#000000"
+              />
+          
+          <ImageButton
+            android:id="@+id/alertbutton"
+            android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:layout_marginTop="177dp"
+        	android:layout_marginLeft="35dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/alertcustom"
+            
+          >
+          </ImageButton>
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/hallbutton"
+              android:layout_marginLeft="55dp"
+              android:text="Alerts"
+              android:textColor="#000000"
+              />
+          <ImageButton
+            android:id="@+id/addbutton"
+            android:layout_width="60dp"
+        	android:layout_height="60dp"
+        	android:layout_marginTop="80dp"
+        	android:layout_marginLeft="40dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/addcustom"
+          >
+          </ImageButton>
+           <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/addbutton"
+              android:layout_marginLeft="40dp"
+              android:text="Add Bunk"
+              android:textColor="#000000"
+              />
+          <ImageButton
+            android:id="@+id/listbutton"
+            android:layout_width="45dp"
+        	android:layout_height="50dp"
+        	android:layout_marginTop="80dp"
+        	android:layout_marginLeft="220dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/listcustom"
+          >
+          </ImageButton>
+           <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/addbutton"
+              android:layout_marginLeft="205dp"
+              android:text="View Bunks"
+              android:textColor="#000000"
+              />
+          <ImageButton
+            android:id="@+id/startnewbutton"
+            android:layout_width="60dp"
+        	android:layout_height="60dp"
+        	android:layout_marginTop="297dp"
+        	android:layout_marginLeft="45dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/startnewcustom"
+            
+          >
+          </ImageButton>
+           <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/startnewbutton"
+              android:layout_marginLeft="55dp"
+              android:text="Reset"
+              android:textColor="#000000"
+              />
+          
+          <ImageButton
+            android:id="@+id/viewtimetablebutton"
+            android:layout_width="60dp"
+        	android:layout_height="60dp"
+        	android:layout_marginTop="297dp"
+        	android:layout_marginLeft="210dp"
+        	android:background="#ffffff"
+        	android:src="@drawable/changecustom"
+            
+          >
+          </ImageButton>
+           <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/startnewbutton"
+              android:layout_marginLeft="210dp"
+              android:text="Timetable"
+              android:textColor="#000000"
+              />
+          
+
+</RelativeLayout>

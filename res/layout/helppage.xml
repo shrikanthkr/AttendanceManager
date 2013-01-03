@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+          <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff"
+              >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:scaleType="fitStart"
+    android:background="@drawable/topbar" />
+
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backstyle"
+        />
+    	<ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="43dp"
+       android:src="@drawable/helppage"
+       android:gravity="center_horizontal"
+       android:layout_marginLeft="25dp"
+       
+       android:id="@+id/subject_tv"
+       
+       />
+      <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter"
+        android:background="#4675d4"
+        android:src="@drawable/custom">
+        </ImageButton>
+       
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:id="@+id/firsttext"
+           android:text="Bunk Lord is an attendance tracker app which is designed especially for students to keep track of their attendance level and get notified when attendance drops down."
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:textColor="#000000"
+           android:layout_below="@+id/imageView1"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+
+          <TextView
+              android:id="@+id/secondtext"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:layout_alignLeft="@+id/imageView2"
+              android:layout_below="@+id/firsttext"
+              android:layout_marginTop="20dp"
+              android:text="How to use this app?\nclick on the next button below"
+              android:typeface="serif"
+              android:textColor="#000000"
+              android:textSize="20dp" />
+ 		
+            
+            <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="Add details:\nAdd your name,university name and minimum percent of the attendance.This is a one time process."
+           android:id="@+id/thirdtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           
+           android:layout_alignLeft="@+id/imageView2"
+           /> 
+    
+    	<TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Specify Starting date:\nSpecify Semester number and starting date.This should be performed everytime you click on reset.Note that the starting date should be lesser or equal to the current date."
+           android:id="@+id/fourthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           /> 
+           <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Add your subjects:\nClicking on the add button takes you to a page where you need to specify the subject name,credits and total number of classes in the semester.Once done click on the done button.In a similar fashion add all your subjects.Press done and we are good to go." 
+           android:id="@+id/fifthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           /> 
+            <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Enter Timetable:\nAdding your timetable is very simple.You just have to select the subject from the dropdown listbox.After it's completed press your phone's menu button which shows you a menu.click done."
+           android:id="@+id/sixthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           /> 
+           
+            <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Dashboard:\nYou can view all pages from the dashboard.You'll be shown the dashboard everytime the app runs."
+           android:id="@+id/seventhtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           /> 
+             <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Add/Delete bunks:\nAdding/Deleting bunks involves just three steps.Choose the date from the datepicker and click on specify bunks.In the following page check the classes you want to bunk and press add button at the bottom.Click on the trash button to delete."
+           android:id="@+id/eighthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+              <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="View bunks:\nYou can either view all bunks or view by subject.View by subject displays a list of subjects and on clicking it takes you to the summary.View all lists all your bunks which are arranged by date."
+           android:id="@+id/ninthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+              <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Alerts:\nIn order to view the overall attendance click on alerts button in dashboard.Alerts page also notifies you when the overall percent drops down."
+           android:id="@+id/tenthtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+               <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Hall of Fame:\nCheck out some exciting stuff at the Hall of Fame."
+           android:id="@+id/eleventhtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+			  <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Reset:\nClick on reset to start a new semester."
+           android:id="@+id/twelvethtext"
+           android:textColor="#000000"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:layout_below="@+id/imageView1"
+           android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/imageView2"
+           />
+			  
+			
+             <Button
+                 android:id="@+id/done1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done8"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done9"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done10"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             <Button
+                 android:id="@+id/done11"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/fifthtext"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:background="@drawable/nextcustom" />
+             
+             
+           
+</RelativeLayout>
+</ScrollView>

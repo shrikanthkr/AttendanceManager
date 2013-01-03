@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bunkie.project"
+    android:versionCode="2"
+    android:versionName="1.1" 
+    
+    >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"
+        
+         >
+         <activity android:name=".MondatTab"
+              android:screenOrientation="portrait"></activity> 
+        <activity android:name=".TuesdayTab"
+             android:screenOrientation="portrait"></activity> 
+        <activity android:name=".WednesdayTab"
+             android:screenOrientation="portrait"></activity> 
+        <activity android:name=".ThursdayTab"></activity> 
+        <activity android:name=".FridayTab" android:screenOrientation="portrait"></activity> 
+         <activity android:name=".ViewMonday" android:screenOrientation="portrait"></activity> 
+        <activity android:name=".ViewTuesday" android:screenOrientation="portrait"></activity> 
+        <activity android:name=".ViewWednesday" android:screenOrientation="portrait"></activity> 
+        <activity android:name=".ViewThursday" android:screenOrientation="portrait"></activity> 
+        <activity android:name=".ViewFriday" android:screenOrientation="portrait"></activity> 
+        <activity
+            android:label="@string/app_name"
+            android:name=".BunkieActivity" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Page" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        
+        <receiver
+            android:label="@string/app_name"
+            android:name=".NotificationReceiver" 
+            android:screenOrientation="portrait"
+            />    
+        <activity
+            android:label="@string/app_name"
+            android:name=".ViewTimeTable" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Startdateandsem"
+            android:screenOrientation="portrait"
+             >
+           
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Summary" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Alerts"
+            android:screenOrientation="portrait"
+             >
+           
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:name=".HallofFame"
+            android:screenOrientation="portrait"
+             >
+          </activity>
+            
+        <activity
+            android:label="@string/app_name"
+            android:name=".AllSummary" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".DashBoard" 
+            android:screenOrientation="portrait"
+            >
+           
+        </activity>
+        
+        <activity android:name=".Splash" 
+            android:screenOrientation="portrait"
+            
+            >
+            
+             <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            </activity>
+            <activity
+            android:name=".InitialPage"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".SubjectDetails" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="com.bunkie.project.SUBJECTDETAILS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        <activity
+            android:label="@string/app_name"
+            android:name=".DatePick" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.DATEPICK" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".MondayTimeTable" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MONDAY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".TuesdayTimeTable" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.TUESDAY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".WednesdayTimeTable" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.WEDNESDAY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".ThursdayTimeTable" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.THURSDAY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".FridayTimeTable" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.FRIDAY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:label="@string/app_name"
+            android:name=".Summary" 
+            android:screenOrientation="portrait"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.SUMMARY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FullSummary"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity
+            android:name=".SpecificSummary"
+            android:screenOrientation="portrait"
+            ></activity>
+        
+       
+    </application>
+
+</manifest>

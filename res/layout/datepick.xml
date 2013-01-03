@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/topbar"
+        android:scaleType="fitStart" />
+
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backstyle" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#4675d4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/custom" >
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/subject_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/pickadate" />
+
+    <ImageView
+        android:id="@+id/seperator"
+        android:layout_width="5dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/seperator" />
+
+    <TextView
+        android:id="@+id/daytextView"
+        android:layout_width="231dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/settextView"
+        android:layout_width="231dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daytextView"
+        android:layout_margin="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/change_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/changecustom" />
+
+        <Button
+            android:id="@+id/set_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/nextcustom" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="40dp"
+        android:text="choose date" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="130dp"
+        android:text="specify bunks" />
+
+    <Button
+        android:id="@+id/markashol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/holidaycustom" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/markashol"
+        android:text="Holiday" />
+
+</RelativeLayout>
